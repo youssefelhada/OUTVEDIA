@@ -1,0 +1,204 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem #1a1a1a, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  background-color: #1a1a1a;
+  color: #00ff00;
+}
+
+/* Override Bootstrap default styles */
+.navbar {
+  background-color: #2d2d2d !important;
+}
+
+.navbar-brand, .nav-link {
+  color: #00ff00 !important;
+}
+
+.card {
+  background-color: #2d2d2d !important;
+  border-color: #00ff00 !important;
+}
+
+.form-control {
+  background-color: #2d2d2d !important;
+  border-color: #00ff00 !important;
+  color: #00ff00 !important;
+}
+
+.form-control:focus {
+  background-color: #2d2d2d !important;
+  border-color: #00ff00 !important;
+  color: #00ff00 !important;
+}
+
+.btn-primary {
+  background-color: #2d2d2d !important;
+  border-color: #00ff00 !important;
+  color: #00ff00 !important;
+}
+
+.btn-primary:hover {
+  background-color: #3d3d3d !important;
+  border-color: #00ff00 !important;
+  color: #00ff00 !important;
+}
+
+.table {
+  color: #00ff00 !important;
+}
+
+.table td, .table th {
+  border-color: #00ff00 !important;
+}
+
+/* Make sure links are visible */
+a {
+  color: #00ff00 !important;
+}
+
+a:hover {
+  color: #00cc00 !important;
+}
+
+/* Style form labels */
+label {
+  color: #00ff00 !important;
+}
+
+/* Style select elements */
+select {
+  background-color: #2d2d2d !important;
+  border-color: #00ff00 !important;
+  color: #00ff00 !important;
+}
+
+/* Style textarea */
+textarea {
+  background-color: #2d2d2d !important;
+  border-color: #00ff00 !important;
+  color: #00ff00 !important;
+}
+
+/* Products Section Dark Background */
+.bg-light {
+    background-color: #1a1a1a !important;
+    color: #00ff00 !important;
+}
+
+/* Card Animations */
+.rounded.border.shadow {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #2d2d2d !important;
+    border-color: #00ff00 !important;
+}
+
+.rounded.border.shadow:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 255, 0, 0.3) !important;
+}
+
+/* Button Animations */
+.btn {
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+/* Loading Spinner */
+.loading-spinner {
+    display: none;
+    width: 50px;
+    height: 50px;
+    border: 5px solid #2d2d2d;
+    border-top: 5px solid #00ff00;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin: 20px auto;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Fix Edit Profile Button Text */
+.btn-primary {
+    color: #00ff00 !important;
+    text-shadow: 0 0 2px rgba(0, 255, 0, 0.5);
+}
+
+/* Modal Dark Theme */
+.modal-content {
+    background-color: #2d2d2d !important;
+    border-color: #00ff00 !important;
+}
+
+.modal-header {
+    border-bottom-color: #00ff00 !important;
+}
+
+.modal-footer {
+    border-top-color: #00ff00 !important;
+}
+
+.modal-title {
+    color: #00ff00 !important;
+}
+
+/* Form Elements in Modal */
+.modal .form-control {
+    background-color: #1a1a1a !important;
+    border-color: #00ff00 !important;
+    color: #00ff00 !important;
+}
+
+.modal .form-label {
+    color: #00ff00 !important;
+}
+
+/* Table Hover Effect */
+.table tbody tr {
+    transition: background-color 0.3s ease;
+}
+
+.table tbody tr:hover {
+    background-color: #2d2d2d !important;
+}
+
+/* Pagination Dark Theme */
+.pagination .page-link {
+    background-color: #2d2d2d !important;
+    border-color: #00ff00 !important;
+    color: #00ff00 !important;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #00ff00 !important;
+    border-color: #00ff00 !important;
+    color: #1a1a1a !important;
+}
+
+.pagination .page-link:hover {
+    background-color: #3d3d3d !important;
+    color: #00ff00 !important;
+}
