@@ -1,57 +1,31 @@
-# Final Project
+# Outvedia 🛍️
 
-This is a .NET Core web application that implements user authentication and authorization using ASP.NET Core Identity.
+Outvedia is a fully functional E-Commerce web application built with ASP.NET MVC and C#. It allows users to browse products, add them to a shopping cart, place orders, and manage their profiles. It also includes a complete admin panel for managing the platform.
 
-## Features
+## 🔥 Features
 
-- User authentication and authorization
-- Role-based access control
-- Email service integration using Brevo
-- SQL Server database integration
+- User Registration & Login  
+- Product Catalog with Categories  
+- Shopping Cart Functionality  
+- Order Placement and History  
+- Admin Dashboard for:  
+  - Managing Products  
+  - Managing Orders  
+  - Managing Users  
+- Responsive UI with Razor Views & Bootstrap  
+- Session Management  
 
-## Prerequisites
+## 🛠️ Tech Stack
 
-- .NET 6.0 SDK or later
-- SQL Server
-- Visual Studio 2022 or Visual Studio Code
+- ASP.NET MVC (C# - .NET 8)  
+- Entity Framework Core  
+- SQL Server  
+- Razor View Engine  
+- Bootstrap 5  
+- Git & GitHub  
 
-## Getting Started
+## 🚀 Getting Started
 
-1. Clone the repository
-2. Update the connection string in `appsettings.json` to point to your SQL Server instance
-3. Update the Brevo API key in `appsettings.json`
-4. Run the following commands in the terminal:
-
+Clone the repository:
 ```bash
-dotnet restore
-dotnet build
-dotnet run
-```
-
-## Configuration
-
-The application requires the following configuration in `appsettings.json`:
-
-- `ConnectionStrings:DefaultConnection`: SQL Server connection string
-- `BrevoSettings:Apikey`: Brevo API key for email service
-
-## Project Structure
-
-- `Controllers/`: Contains the application's controllers
-- `Models/`: Contains the data models
-- `Services/`: Contains business logic and services
-- `Views/`: Contains the Razor views
-- `wwwroot/`: Contains static files (CSS, JavaScript, images)
-
-## Security
-
-The application implements the following security measures:
-
-- Password hashing using ASP.NET Core Identity
-- HTTPS enforcement
-- Secure cookie handling
-- Cross-Site Request Forgery (CSRF) protection
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details. 
+git clone https://github.com/youssefelhada/OUTVEDIA.git
